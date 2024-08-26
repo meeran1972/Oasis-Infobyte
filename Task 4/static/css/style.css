@@ -1,0 +1,444 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .header {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Index Page Styles */
+  
+  .index-container {
+    background-color: #ffe6f9; /* Light pink background color */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .index-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    margin: 20px;
+  }
+  
+  .index-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .index-box.register {
+    background-color: #e6ffe6; /* Light green background color for registration box */
+  }
+  
+  .index-box.login {
+    background-color: #e0efff; /* Light blue background color for login box */
+  }
+  
+  .index-box h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .index-box p {
+    margin-bottom: 20px;
+  }
+  
+  .index-box a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .index-box a:hover {
+    color: #23527c;
+  }
+  
+  /* Login Page Styles */
+  
+  .login-container {
+    background-color: #d1e0ff; /* Pastel blue background color */
+    text-align: center;
+  }
+  
+  .login-header {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .login-content {
+    padding: 20px;
+    background-color: #c7d5f9; /* Soft blue background color */
+  }
+  
+  .login-form {
+    /* No additional styles needed */
+  }
+  
+  .login-label {
+    /* No additional styles needed */
+  }
+  
+  .login-input {
+    /* No additional styles needed */
+  }
+  
+  .login-button {
+    /* No additional styles needed */
+  }
+  
+  /* Registration Page Styles */
+  
+  .register-container {
+    background-color: #ffd7f9; /* Soft pink background color */
+    text-align: center;
+  }
+  
+  .register-header {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .register-content {
+    padding: 20px;
+    background-color: #ffe6f9; /* Light pink background color */
+  }
+  
+  .register-form {
+    /* No additional styles needed */
+  }
+  
+  .register-label {
+    /* No additional styles needed */
+  }
+  
+  .register-input {
+    /* No additional styles needed */
+  }
+  
+  .register-button {
+    /* No additional styles needed */
+  }
+  
+  /* Secured Page Styles */
+  
+  .secured-container {
+    background-color: #c7d5f9; /* Soft blue background color */
+    text-align: center;
+  }
+  
+  .secured-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .secured-container p {
+    margin-bottom: 20px;
+  }
+  
+  .secured-container a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .secured-container a:hover {
+    color: #23527c;
+  }
+  
+  /* Responsive Design */
+  
+  @media only screen and (max-width: 768px) {
+    .index-box {
+      width: 80%;
+      margin: 20px 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .header {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Index Page Styles */
+  
+  .index-container {
+    background-color: #ffe6f9; /* Light pink background color */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .index-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    margin: 20px;
+  }
+  
+  .index-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .index-box.register {
+    background-color: #e6ffe6; /* Light green background color for registration box */
+  }
+  
+  .index-box.login {
+    background-color: #e0efff; /* Light blue background color for login box */
+  }
+  
+  .index-box h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .index-box p {
+    margin-bottom: 20px;
+  }
+  
+  .index-box a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .index-box a:hover {
+    color: #23527c;
+  }
+  
+  /* Login Page Styles */
+  
+  .login-container {
+    background-color: #d1e0ff; /* Pastel blue background color */
+    text-align: center;
+  }
+  
+  .login-header {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .login-content {
+    padding: 20px;
+    background-color: #c7d5f9; /* Soft blue background color */
+  }
+  
+  .login-form {
+    /* No additional styles needed */
+  }
+  
+  .login-label {
+    /* No additional styles needed */
+  }
+  
+  .login-input {
+    /* No additional styles needed */
+  }
+  
+  .login-button {
+    /* No additional styles needed */
+  }
+  
+  /* Registration Page Styles */
+  
+  .register-container {
+    background-color: #ffd7f9; /* Soft pink background color */
+    text-align: center;
+  }
+  
+  .register-header {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .register-content {
+    padding: 20px;
+    background-color: #ffe6f9; /* Light pink background color */
+  }
+  
+  .register-form {
+    /* No additional styles needed */
+  }
+  
+  .register-label {
+    /* No additional styles needed */
+  }
+  
+  .register-input {
+    /* No additional styles needed */
+  }
+  
+  .register-button {
+    /* No additional styles needed */
+  }
+  
+  /* Secured Page Styles */
+  
+  .secured-container {
+    background-color: #c7d5f9; /* Soft blue background color */
+    text-align: center;
+  }
+  
+  .secured-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .secured-container p {
+    margin-bottom: 20px;
+  }
+  
+  .secured-container a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .secured-container a:hover {
+    color: #23527c;
+  }
+  
+  /* Responsive Design */
+  
+  @media only screen and (max-width: 768px) {
+    .index-box {
+      width: 80%;
+      margin: 20px 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .index-box {
+        width: 90%;
+        margin: 20px 5px;
+      }
+    }
+    
+    @media only screen and (max-width: 320px) {
+      .index-box {
+        width: 95%;
+        margin: 20px 2px;
+      }
+    }}

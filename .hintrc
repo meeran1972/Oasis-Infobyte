@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/content-security-policy": "error",
+    "axe/cookie-secure": "error",
+    "axe/password-input-attributes": "error",
+    "meta-charset-utf-8": "off"
+  }
+}
